@@ -8,6 +8,7 @@ export class CourseModel{
     public description: string;
     public photo: string;
     public video: string;
+    public difficulty: string;
     public date: Date;
     public category: CategoryModel;
     public user: UserModel;
