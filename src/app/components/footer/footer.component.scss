@@ -1,0 +1,68 @@
+.footer{
+
+    background: rgb(63, 0, 139);
+
+}
+
+ul.social-network{
+
+    list-style: none;
+    padding:0;
+
+}
+
+ul.social-network li{
+
+    display: inline;
+    margin: 0;
+    padding: 5px;
+
+}
+
+.icons{
+
+    color: #fff;
+
+}
+
+.icoLinkedin:hover{
+
+    color: #0e76a8;
+
+}
+
+.icoInstagram:hover{
+
+    color: #e1306c;
+
+}
+
+.icoGithub:hover{
+
+    color: #000000;
+
+}
+
+.footer-copyright{
+
+    font-family: 'Eczar', serif;
+    font-size: 16pt;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.bg-footer{
+
+    background: rgb(63, 0, 139);
+    background: linear-gradient(87deg, rgba(63, 0, 139, 1) 0%, rgba(97, 42, 217, 1) 100%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+
+}

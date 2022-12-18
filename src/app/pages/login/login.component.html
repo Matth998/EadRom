@@ -1,0 +1,47 @@
+<div class="container-fluid">
+
+  <div class="row d-flex align-items-center">
+
+    <div class="col-md-12" id="img-bg">
+
+      <a routerLink="/" class="text-white text-decoration-none mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+          height="32" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z" />
+          <path fill-rule="evenodd"
+            d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+        </svg></a>
+
+      <div class="container mr-auto">
+        <div class="row full-height justify-content-center">
+          <div class="col-12 text-center align-self-center py-5">
+            <div class="section pb-5 pt-5 pt-sm-2 text-center">
+              <div class="card-3d-wrap mr-auto">
+                <div class="card-3d-wrapper">
+                  <div class="card-front">
+                    <div class="center-wrap">
+                      <div class="section text-center">
+                        <h4 class="mb-2 pb-3 mt-3">Login</h4>
+                        <div class="form-group">
+                          <input [(ngModel)]="userLogin.email" type="email" name="email" class="form-style" placeholder="Email" id="email"
+                            autocomplete="off">
+                        </div>
+                        <div class="form-group mt-2">
+                          <input [(ngModel)]="userLogin.password" type="password" name="password" class="form-style" placeholder="Password" id="password"
+                            autocomplete="off">
+                        </div>
+                        <a class="btn mt-4" (click)="login()">Login</a>
+                        <p class="mb-0 mt-4 text-center link">Não tem uma conta?</p>
+                        <a routerLink="/register" class="btn mt-4 mb-3">Cadastre-se</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

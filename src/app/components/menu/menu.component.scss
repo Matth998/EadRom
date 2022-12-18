@@ -1,0 +1,100 @@
+.body{
+
+    background: rgb(63, 0, 139);
+
+}
+
+.header{
+
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+.header.bg-menu{
+
+    background: rgb(63, 0, 139);
+    background: linear-gradient(87deg, rgba(63, 0, 139, 1) 0%, rgba(97, 42, 217, 1) 100%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+
+}
+
+.header .font-16{
+
+    font-size: 16px;
+
+}
+
+.header .dropdown-item{
+
+    padding: 8px 1rem;
+    color: #fff;
+
+}
+
+.header .h2-nav .navbar-nav .nav-item .nav-link{
+
+    padding: 12px 15px;
+    color: #fff;
+    font-weight: 400;
+
+}
+
+.header .h2-nav .navbar-nav .nav-item .nav-link:hover{
+
+    color: #fff;
+
+}
+
+.header .h2-nav .navbar-nac .nav-item{
+
+    margin: 0 20px;
+
+}
+
+@media(min-width: 1024px){
+
+    .header .navbar-nav>.dropdown .dropdown-menu{
+
+        min-width: 210px;
+        margin-top: 0;
+
+    }
+
+    .header .dropdown-submenu:hover>.dropdown-menu{
+
+        display: block;
+
+    }
+
+    .header .dropdown-toggle::after{
+
+        display: none;
+
+    }
+
+    .header .hover-dropdown .navbar-nav>.dropdown:hover>.dropdown-menu{
+
+        display: block;
+        margin-top: 0px;
+
+    }
+
+}
+
+.header .dropdown-submenu>.dropdown-menu{
+
+    top: 0;
+    left: 100%;
+    margin-left: 0;
+    border-radius: 0.25rem;
+    display: none;
+
+}

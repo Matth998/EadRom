@@ -1,0 +1,20 @@
+<div class="body">
+  <div class="loginBox ml-auto">
+    <h3>Cadastre-se</h3>
+    <form  action="login.php" method="post">
+      <div class="inputBox"> 
+        <input [(ngModel)]="user.name" id="uname" type="text" name="Username" placeholder="Nome"> 
+        <input [(ngModel)]="user.email" id="email" type="text" name="email" placeholder="Email"> 
+        <input [(ngModel)]="user.photo" id="photo" type="text" name="photo" placeholder="Foto"> 
+        <input (input)="confirmePassword($event)" id="pass" type="password" name="Password" placeholder="Senha"> 
+        <input [(ngModel)]="user.password" id="pass" type="password" name="ConfirmePassword" placeholder="Confirma Senha"> 
+      </div>
+          <input (click) = "register()" type="submit" name="" value="Cadastrar">
+    </form>
+    <p class="text-center text-white">Já tem uma conta?<br> </p>
+    <div class="text-center">
+      <a style="color: #fff;" routerLink="/login">Faça seu login</a>
+    </div>
+
+  </div>
+</div>

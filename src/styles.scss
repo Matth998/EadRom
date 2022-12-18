@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+*{
+
+    font-family: "Eczar", serif;
+    font-weight: 400;
+
+}
+
+h1{
+
+    font-family: "Merieda", cursive;
+    font-weight: 900;
+
+}
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+
+$fa-font-path: "/node_modules/font-awesome/fonts";
+@import "/node_modules/font-awesome/scss/font-awesome.scss";
