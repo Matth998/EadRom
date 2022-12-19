@@ -20,6 +20,10 @@ import { CourseEditComponent } from './pages/edit/course-edit/course-edit.compon
 import { UserEditComponent } from './pages/edit/user-edit/user-edit.component';
 import { ButtonUploadComponent } from './components/buttons/button-upload/button-upload.component';
 import { MoreProgramacaoComponent } from './pages/more-programacao/more-programacao.component';
+import { IntroductionComponent } from './pages/courses/introduction/introduction.component';
+import { BackEndComponent } from './pages/courses/back-end/back-end.component';
+import { FrontEndComponent } from './pages/courses/front-end/front-end.component';
+import { DataScienceComponent } from './pages/courses/data-science/data-science.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +37,11 @@ import { MoreProgramacaoComponent } from './pages/more-programacao/more-programa
     CourseEditComponent,
     UserEditComponent,
     ButtonUploadComponent,
-    MoreProgramacaoComponent
+    MoreProgramacaoComponent,
+    IntroductionComponent,
+    BackEndComponent,
+    FrontEndComponent,
+    DataScienceComponent
   ],
   imports: [
     BrowserModule,

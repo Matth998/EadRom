@@ -18,6 +18,7 @@ export class FeedComponent implements OnInit {
   name = environment.name;
   courseModel: CourseModel = new CourseModel();
   listCourse: CourseModel[];
+  course: CourseModel = new CourseModel();
 
   category: CategoryModel = new CategoryModel();
   listCategory: CategoryModel[];
@@ -50,7 +51,6 @@ export class FeedComponent implements OnInit {
       this.router.navigate(['/home'])
 
     }
-
     this.getAllCategory();
     this.getAllCourse();
 
@@ -75,6 +75,7 @@ export class FeedComponent implements OnInit {
     })
 
   }
+
 
   findByIdCategory() {
 
