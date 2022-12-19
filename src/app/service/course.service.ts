@@ -29,9 +29,9 @@ export class CourseService {
 
   }
 
-  getByTitleCourse(title: string): Observable<CourseModel[]>{
+  getByTitleCourse(category: string): Observable<CourseModel[]>{
 
-    return this.http.get<CourseModel[]>(`http://localhost:8080/course/title/${title}`, this.token);
+    return this.http.get<CourseModel[]>(`http://localhost:8080/course/category/${category}`, this.token);
 
   }
 

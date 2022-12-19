@@ -18,6 +18,8 @@ import { FeedComponent } from './pages/feed/feed.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { CourseEditComponent } from './pages/edit/course-edit/course-edit.component';
 import { UserEditComponent } from './pages/edit/user-edit/user-edit.component';
+import { ButtonUploadComponent } from './components/buttons/button-upload/button-upload.component';
+import { MoreProgramacaoComponent } from './pages/more-programacao/more-programacao.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { UserEditComponent } from './pages/edit/user-edit/user-edit.component';
     FeedComponent,
     RegisterComponent,
     CourseEditComponent,
-    UserEditComponent
+    UserEditComponent,
+    ButtonUploadComponent,
+    MoreProgramacaoComponent
   ],
   imports: [
     BrowserModule,
