@@ -24,6 +24,7 @@ import { IntroductionComponent } from './pages/courses/introduction/introduction
 import { BackEndComponent } from './pages/courses/back-end/back-end.component';
 import { FrontEndComponent } from './pages/courses/front-end/front-end.component';
 import { DataScienceComponent } from './pages/courses/data-science/data-science.component';
+import { Error404Component } from './pages/error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { DataScienceComponent } from './pages/courses/data-science/data-science.
     IntroductionComponent,
     BackEndComponent,
     FrontEndComponent,
-    DataScienceComponent
+    DataScienceComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
